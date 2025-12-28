@@ -1,6 +1,8 @@
 name: List of all default Github Vars
 
-on: 
+on:
+  push:
+    branches: [ "main"]
   workflow_dispatch:
     
 jobs:
